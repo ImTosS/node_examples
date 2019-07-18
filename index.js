@@ -1,5 +1,5 @@
 const Person = require('./person');
-const Logger = require('./reference/Logger');
+const Logger = require('./logger');
 
 const logger = new Logger();
 logger.on('message', (data) => console.log('Called listener: ', data));
